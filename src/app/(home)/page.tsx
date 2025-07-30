@@ -13,16 +13,17 @@ const HomePage = () => {
     <div >
       <div className="bodyDiv flex flex-col justify-start items-start">
 
-        <h3 className={`${rubikMonoOne.className} font-bold text-[10vh] leading-[10.2vh] ml-16 mt-8 p-2 tracking-wider w-[90rem] uppercase md:w-[70rem]`}>
+
+        <h3 className={`${rubikMonoOne.className} font-bold text-4xl md:text-6xl lg:text-[10vh] leading-tight md:leading-[10.2vh] ml-4 md:ml-16 mt-8 p-2 tracking-wider w-full md:w-[120rem] uppercase`}>
           let's have the best MUN prep!
         </h3>
 
+        <div className="flex flex-wrap justify-center items-center mt-12 ml-12">
+          <Card color="#d2d8df" imageUrl="https://cdn-icons-png.flaticon.com/128/3073/3073412.png" text="Position Paper creator" />
+          <Card color="#d2e1d2" imageUrl="https://cdn-icons-png.flaticon.com/128/3403/3403504.png" text="AI Researcher" />
+          <Card color="#e0d7d1" imageUrl="https://cdn-icons-png.flaticon.com/128/3281/3281329.png" text="Card for test purposes" />
+        </div>
 
-        {/* <h4 className='mb-8'>it does use ai, but it helps a ton for researching for stances and stuff, so yeah, use it!</h4> */}
-
-
-
-        <Card color="#d2d8df" />
       </div>
     </div>
   )
