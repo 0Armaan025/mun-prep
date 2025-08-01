@@ -18,12 +18,16 @@ const HomePage = () => {
           let's have the best MUN prep!
         </h3>
 
-        <div className="flex flex-wrap justify-center items-center mt-12 ml-12">
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 ml-12">
+          {/* <Card ... /> */}
+          {/* <Card ... /> */}
+          {/* <Card ... /> */}
           <Card color="#d2d8df" imageUrl="https://cdn-icons-png.flaticon.com/128/3073/3073412.png" text="Position Paper creator" />
           <Card color="#d2e1d2" imageUrl="https://cdn-icons-png.flaticon.com/128/3403/3403504.png" text="AI Researcher" />
           <Card color="#e0d7d1" imageUrl="https://cdn-icons-png.flaticon.com/128/3281/3281329.png" text="Card for test purposes" />
-        </div>
 
+        </div>
       </div>
     </div>
   )
